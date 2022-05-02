@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +7,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Forestagram🌳</title>
+    <title>𝓯𝓸𝓻𝓮𝓼𝓽𝓪𝓰𝓻𝓪𝓶🌳</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -32,39 +30,293 @@
 <script>
 
 
+
 </script>
 <style>
+
+    body {
+        background-color: darkseagreen;
+    }
     .form-control{
         width: 400px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .insta-card-header{
+        margin-top: 5px;
     }
 
     .wrap{
-         display: flex;
+        display: flex;
         flex-direction: row;
-        /*align-items: center;*/
-        /*justify-content: center;*/
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
     }
+
+    .icon{
+        margin-right: 250px;
+    }
+
+    .image{
+        margin-bottom: 12px;
+    }
+
+    .s_image{
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+        background-color: white;
+        width: 600px;
+        border: darkgreen 2px solid;
+    }
+
+    .storyimage{
+        width: 80px;
+        height: 80px;
+    }
+
+    .storyimage:hover {
+        transform: scale(1.2);
+    }
+
+    .image:hover {
+        transform: scale(1.3);
+    }
+
+    .insta-card{
+        border: 2px solid darkgreen;
+        width:600px;
+        margin: 20px 100px 20px 70px;
+        background-color: white;
+    }
+
+    .cardimg{
+        display: block;
+        margin: auto;
+    }
+
+    .insta-card-body :not(hr){
+        margin-left: 10px;
+    }
+
+    .anotherbox{
+        border: 2px solid darkgreen;
+        position: relative;
+        /*!*절대적으로 포지션 이동 (상대 x)*!*/
+        bottom: 2900px;
+        padding: 20px;
+        background-color: white;
+
+
+    }
+
+    .instamain {
+        max-width: 2000px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        background-image: url( "https://cdn.pixabay.com/photo/2014/04/04/14/58/background-313645_960_720.jpg" );
+
+
+    }
+
+    .foralign {
+        margin: 0 auto;
+    }
+
+
+
+
+
 
 </style>
 
+
+
 <header>
-    <div class = "wrap">
-        <h5> 𝓕𝓸𝓻𝓮𝓼𝓽𝓪𝓰𝓻𝓪𝓶🌳</h5>
-        <span class="material-symbols-outlined">
-        </span>
-        <input type="password" class="form-control" id="inputPassword" placeholder="🔎">
-        <i class="fa-solid fa-house-chimney fa-2x"></i><br><br>
-        <i class="fa-regular fa-paper-plane fa-2x"></i><br><br>
-        <i class="fa-regular fa-square-plus fa-2x"></i><br><br>
-        <i class="fa-regular fa-compass fa-2x"></i><br><br>
-        <i class="fa-regular fa-heart fa-2x"></i><br><br>
-        <img class="image" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdfdizj%2FbtrAK291ubf%2F3FYUpPmqG5Pk0u1vM20Xy0%2Fimg.png" width = "35px" height = "35px">
+    <div class="wrap">
+        <br><h5 style="margin-left: 200px;"> &nbsp 𝓕𝓸𝓻𝓮𝓼𝓽𝓪𝓰𝓻𝓪𝓶🌳</h5>
+        <input type="password" class="form-control" id="inputPassword" placeholder="검색">
+        <div class="icon">
+            <i class="fa-solid fa-house-chimney fa-2x"></i>&nbsp&nbsp
+            <i class="fa-regular fa-paper-plane fa-2x"></i>&nbsp&nbsp
+            <i class="fa-regular fa-square-plus fa-2x"></i>&nbsp&nbsp
+            <i class="fa-regular fa-compass fa-2x"></i>&nbsp&nbsp
+            <i class="fa-regular fa-heart fa-2x"></i>&nbsp&nbsp
+            <A href = "html3.html" target = "blank" > <img class="image" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdfdizj%2FbtrAK291ubf%2F3FYUpPmqG5Pk0u1vM20Xy0%2Fimg.png" width = "35px" height = "35px"></A>
+        </div>
     </div>
     <hr>
 
 </header>
+<body onload="foo()">
+<div class="instamain">
+    <div class="foralign">
+        <div class = "myleft" style="display:inline-block">
+            <div class = "s_image">
+                <A href = "html2.html" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKJjcP%2FbtrAPg7O1BS%2FR5abw7RjcrHHO4x7l2khA1%2Fimg.png"> </A>&nbsp
+        <!--            <a>html2로 이동, 창을 새로 열어서, 이미지 코드는 ~</a> 한 칸 옆으로 띄어줘.-->
+                <A href = "html2.html#img2" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbslM7c%2FbtrAPqPUznQ%2F86PSAEqCKGnRFCPSsrVWSK%2Fimg.png"> </A>&nbsp
+                <A href = "html2.html#img3" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb2VOtQ%2FbtrANSM8QId%2FzbfLXh3RKFD4DiKT8r7tlK%2Fimg.png"> </A>&nbsp
+                <A href = "html2.html#img4" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRLQRS%2FbtrAMvkAUxz%2FFlMF44pWjZnTXEp1Edx58k%2Fimg.png"> </A>&nbsp
+                <A href = "html2.html#img5" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSQ4yh%2FbtrANS7qXcj%2FXr0yNgG5FUcXcKaI7MbOEk%2Fimg.png"> </A>&nbsp
+                <A href = "html2.html#img6" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdlI1OX%2FbtrAPFlKamr%2F7a0gQyGuB3UfA7wnT96P50%2Fimg.png"> </A>&nbsp
+                <A href = "html2.html#img7" target = "blank" > <IMG class="storyimage" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbos4lL%2FbtrAPr2mq0J%2FaHK7LAGoq3JCRLMRJ35OO0%2Fimg.png"> </A>
+            </div>
+            <div class="insta-card">
+                <div class="insta-card-header">
+                    <div style="display:inline-block">
+                        <img style="width:60px; height:60px; margin-top:10px; margin-left:10px;"
+                             src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdfdizj%2FbtrAK291ubf%2F3FYUpPmqG5Pk0u1vM20Xy0%2Fimg.png"/>
+                        <b>hyewo_n91</b>
+                    </div>
+                    <div style="display:inline-block">
+                        <div style="display:inline-block; margin-left: 340px;">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                    </div>
+                </div>
+                    <hr style="width:600px">
+                    <img style="width:500px; height:700px" class="cardimg" src = "https://i.pinimg.com/originals/27/92/b5/2792b522aa288d3ce53f2cd2c9b25925.jpg">
 
-<body>
-    <h1> body 입니다</h1>
+                    <br>
+                <div class="insta-card-body">
+                    <div class="icons">
+                        <i class="fa-regular fa-heart fa-2x"></i>&nbsp&nbsp
+                        <i class="fa-regular fa-comment fa-2x"></i>&nbsp&nbsp
+                        <i class="fa-regular fa-paper-plane fa-2x"></i>
+                    </div>
+                    <br>
+                    <img style = "width: 40px; height: 40px;" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FE2kHW%2FbtrAXCQvDcQ%2Fg1cbmTNnWnuASXalKCl0QK%2Fimg.png">
+                    <b>jaehahaha</b>님 외 <b>여러 명</b>이 좋아합니다
+                    <br>
+                    <b>hyewo_n91</b>&nbsp 우연히 책 한 가운데서 나온 사진. 이 때 버렸던 토마토 심지는 <br>&nbsp 다 자라 나무가 됐다<i class="fa-brands fa-pagelines"></i>
+                    <br>
+                    <span style="color:gray">댓글 4개 모두 보기</span>
+                    <br>
+                    <span style="margin-right:100px;"> <b>lovelysukkk_0</b>&nbsp토마토 마리네이드 먹으러 놀러가야겠구만!</span><iclass="fa-regular fa-heart"></i>
+                    <br>
+                    <span style="font-size:12px; color:gray">4일전</span>
+                    <hr style="width:600px">
+                    <i class="fa-regular fa-face-smile-wink fa-lg"></i>&nbsp&nbsp<span style="color:gray">댓글 달기...</span>
+                    <span style="margin-left:400px; color:lightskyblue">게시</span>
+                    <br><br>
+                </div>
+            </div>
+                <div class="insta-card">
+                    <div class="insta-card-header">
+                        <div style="display:inline-block">
+                            <img style="width:70px; height:70px; margin-top:10px; margin-left:10px; "
+                                 src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc5L7Ao%2FbtrAYudj0a2%2FcfRAZuSyrquKGsIqeUhKrk%2Fimg.png"/>
+                        <b>lovelysukkk_0</b>
+                        </div>
+                        <div style="display:inline-block; margin-left: 320px;">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                        <hr style="width:600px">
+                        <img style="width:500px; height:700px" class="cardimg" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzpSdo%2FbtrAWAFLbe4%2F1BpgPgANlX0Kyinxk01XFK%2Fimg.png">
+                        <br>
+                    <div class="insta-card-body">
+                        <div class="icons">
+                            <i class="fa-regular fa-heart fa-2x"></i>&nbsp&nbsp
+                            <i class="fa-regular fa-comment fa-2x"></i>&nbsp&nbsp
+                            <i class="fa-regular fa-paper-plane fa-2x"></i>
+                        </div>
+                        <br>
+                        <img style = "width: 40px; height: 40px;" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FE2kHW%2FbtrAXCQvDcQ%2Fg1cbmTNnWnuASXalKCl0QK%2Fimg.png">
+                        <b>jaehahaha</b>님 외 <b>여러 명</b>이 좋아합니다
+                        <br>
+                        <b>lovelysukkk_0</b>&nbsp어른의 맛이 나는 누룩과 내 친구들<i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i>
+                        <br>
+                        <span style="color:gray">댓글 10개 모두 보기</span>
+                        <br>
+                        <span style="margin-right:340px;"> <b>hyewo_n91</b>&nbsp막걸리 값은?</span><i class="fa-regular fa-heart"></i>
+                        <br>
+                        <span style="font-size:12px; color:gray">6일전</span>
+                        <hr style="width:600px">
+                        <i class="fa-regular fa-face-smile-wink fa-lg"></i>&nbsp&nbsp<span style="color:gray">댓글 달기...</span>
+                        <span style="margin-left:400px; color:lightskyblue">게시</span>
+                        <br><br>
+                </div>
+            </div>
+                <div class="insta-card">
+                    <div class="insta-card-header">
+                        <div style="display:inline-block">
+                            <img style="width:70px; height:70px; margin-top:10px; margin-left:10px;"
+                                 src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FE2kHW%2FbtrAXCQvDcQ%2Fg1cbmTNnWnuASXalKCl0QK%2Fimg.png"/>
+                                <b>jaehahaha</b>
+                        </div>
+                        <div style="display:inline-block; margin-left: 340px;">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                        <hr style="width:600px">
+                        <img style="width:500px; height:700px" class="cardimg" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbBp7sM%2FbtrAUl9gOvO%2FZKTWSqP4KHbRh7WQnt5ZPk%2Fimg.png">
+
+                        <br>
+                    <div class="insta-card-body">
+                        <div class="icons">
+                            <i class="fa-regular fa-heart fa-2x"></i>&nbsp&nbsp
+                            <i class="fa-regular fa-comment fa-2x"></i>&nbsp&nbsp
+                            <i class="fa-regular fa-paper-plane fa-2x"></i>
+                        </div>
+                        <br>
+                        <img style = "width: 40px; height: 40px;" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc5L7Ao%2FbtrAYudj0a2%2FcfRAZuSyrquKGsIqeUhKrk%2Fimg.png">
+                        <b>lovelysukkk_0</b>님 외 <b>여러 명</b>이 좋아합니다
+                        <br>
+                        <b>jaehahaha</b>&nbsp 농부의 하루
+                        <br>
+                        <span style="color:gray">댓글 2개 모두 보기</span>
+                        <br>
+                        <span style="margin-right:220px;"> <b>lovelysukkk_0</b>&nbsp사과 나오면 한박스는 내꺼!</span><i class="fa-regular fa-heart"></i>
+                        <br>
+                        <span style="font-size:12px; color:gray">일주일전</span>
+                        <hr style="width:600px">
+                        <i class="fa-regular fa-face-smile-wink fa-lg"></i>&nbsp&nbsp<span style="color:gray">댓글 달기...</span>
+                        <span style="margin-left:400px; color:lightskyblue">게시</span>
+                        <br><br>
+                </div>
+            </div>
+        </div>
+        <div  class="anotherbox" style="display:inline-block">
+            <div style="display:inline-block">
+            <img style="width:75px; height:75px" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdfdizj%2FbtrAK291ubf%2F3FYUpPmqG5Pk0u1vM20Xy0%2Fimg.png">
+            </div>
+            <div style="display:inline-block">
+                hyewo_n91 <br> <span style="color:gray">송혜원</span><span style="color:cornflowerblue; margin-left:200px">전환</span>
+            </div>
+            <br><br>
+            <h6 style="color:gray;"><b>회원님을 위한 추천</b></h6><br>
+            <div style="display:inline-block">
+            <img style="width:75px; height:75px" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FMZRyt%2FbtrAVsO6JLx%2FhJPj4WO8KX4uQ2AlKfAd2K%2Fimg.png">
+            </div>
+            <div style="display:inline-block">
+               kimtaeri_official <br> <span style="color:gray">김태리</span><span style="color:cornflowerblue; margin-left:200px">팔로우</span>
+            </div>
+            <br><br>
+            <div style="display:inline-block">
+            <img style="width:75px; height:75px" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdrVLXR%2FbtrAWzUNKgN%2F8FPw7np4aQKvX4LoXGFPYK%2Fimg.png">
+            </div>
+            <div style="display:inline-block">
+               seeeon_y13 <br> <span style="color:gray">백선영</span><span style="color:cornflowerblue; margin-left:200px">팔로우</span>
+            </div>
+            <div class="footer">
+            <br>
+            <hr class="hr">
+            <p>2022 - 05 - 02 // team.sparta @ 내배캠 @ 백선영</p>
+            <p>#도움말 #문의사항 #놀러오기</p>
+            <a href = "https://1-codaejang.tistory.com/" target = "blank" >코린 티스토리</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>
